@@ -1,0 +1,29 @@
+{
+  "name": "difffiles",
+  "version": "0.1.0",
+  "description": "",
+  "bin": {
+    "difffiles": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel assets --out-dir lib",
+    "watch": "babel assets --out-dir lib --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todays-mitsui/difffiles.git"
+  },
+  "author": "Mitsui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/todays-mitsui/difffiles/issues"
+  },
+  "homepage": "https://github.com/todays-mitsui/difffiles#readme",
+  "dependencies": {
+    "babel-plugin-transform-es2015-parameters": "^6.11.4",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.30.0"
+  }
+}
