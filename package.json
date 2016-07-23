@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "bin": {
-    "difffiles": "cli.js"
+    "difffiles": "difffiles.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,9 +21,13 @@
   },
   "homepage": "https://github.com/todays-mitsui/difffiles#readme",
   "dependencies": {
+    "commander": "^2.9.0",
+    "date-utils": "^1.2.21",
+    "fs-extra": "^0.30.0"
+  },
+  "devDependencies": {
     "babel-plugin-transform-es2015-parameters": "^6.11.4",
     "babel-plugin-transform-es2015-spread": "^6.8.0",
-    "commander": "^2.9.0",
-    "fs-extra": "^0.30.0"
+    "babel-cli": "^6.11.4"
   }
 }

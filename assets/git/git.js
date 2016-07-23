@@ -1,7 +1,7 @@
 'use strict';
 
 const spawn = require('child_process').spawn;
-const CONF = require('../conf');
+const CONF = require('../config/conf');
 
 
 /**
