@@ -1,7 +1,7 @@
 {
-  "name": "difffiles",
-  "version": "0.1.0",
-  "description": "",
+  "name": "git-difffiles",
+  "version": "0.1.1",
+  "description": "Run \"git diff\" and Copy files.",
   "bin": {
     "difffiles": "difffiles.js"
   },
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/todays-mitsui/difffiles.git"
+    "url": "git+https://github.com/todays-mitsui/git-difffiles.git"
   },
   "author": "Mitsui",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/todays-mitsui/difffiles/issues"
+    "url": "https://github.com/todays-mitsui/git-difffiles/issues"
   },
-  "homepage": "https://github.com/todays-mitsui/difffiles#readme",
+  "homepage": "https://github.com/todays-mitsui/git-difffiles#readme",
   "dependencies": {
     "commander": "^2.9.0",
     "date-utils": "^1.2.21",
