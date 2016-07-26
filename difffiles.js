@@ -6,7 +6,7 @@
 let program = require('commander');
 
 
-program.version('0.1.0')
+program.version('Difffiles v0.1.3')
   .command(
     'copy <revision>',
     '指定したコミットから現在までの差分ファイルのコピーを作成します',
